@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 6 -type f *js | rm
+find . -maxdepth 10 -type f | rm \*.js
