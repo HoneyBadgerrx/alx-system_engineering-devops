@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo cat /etc/password | head
+sudo head /etc/passwd
