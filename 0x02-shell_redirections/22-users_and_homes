@@ -1,2 +1,2 @@
 #!/bin/bash
- cat /etc/passwd | grep -o "^[a-zA-Z_-]*i" | sort
+cut -d: -f1,6 /etc/passwd
