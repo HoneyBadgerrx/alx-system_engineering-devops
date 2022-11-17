@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# script to listen to port
+sudo netstat -l --program
