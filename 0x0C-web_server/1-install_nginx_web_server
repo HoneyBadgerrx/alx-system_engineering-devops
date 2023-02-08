@@ -3,11 +3,11 @@
 #
 # Also, when querying nginx at its root / with a GET
 # request, it returns a page that contains the string
-# 'Holberton School'.
+# 'Hello world'.
 #
 
 apt update
 apt install -y nginx
 ufw allow 'Nginx HTTP'
-echo "Holberton School" > /var/www/html/index.html
+echo "Hello World!" > /var/www/html/index.html
 service nginx restart
