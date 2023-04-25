@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-#ssh log in
-ssh -i ~/.ssh/school ubuntu@34.201.174.13
